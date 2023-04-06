@@ -1,0 +1,7 @@
+In this code  first I launch the web driver and navigate to the website where the image is located.
+second I find the image element using Selenium's findElement method and get the image URL. 
+Then I called the isImageUnique method to download the image and check if it's unique.
+The isImageUnique method downloads the image to a temporary file using Java's URLConnection class, and then compares it to previously downloaded images. 
+The previous images are assumed to be stored in a directory called "images" in the same directory as the Java code. 
+If the downloaded image is identical to any of the previous images, the method returns false.
+ Otherwise, the method moves the temporary file to the "images" directory and returns true.

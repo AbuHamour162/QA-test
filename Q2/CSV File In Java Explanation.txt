@@ -1,0 +1,7 @@
+I Created a csv file in java with 6 column :
+1- "id" - This column contains integer ---> modify the code to validate the input values according to the specified conditions values between 50 and 1999.
+2- "name" - This column contains string ---> modify the code to validate the input values according to the specified conditions values with a maximum length of 150 characters.
+3- "weight" - This column contains double ---> modify the code to validate the input values according to the specified condition values delimited by ','.
+4- "gender" - This column contains a single character ---> modify the input condition representing the gender. The values "M" or "H" represent male, and the value "F" represents female.
+5- "country" - This column contains string ---> modify the code to validate the input values according to the specified conditions values should in  English language.
+6- "isQA" - This column contains boolean ---> modify the code to validate the input values according to the specified conditions values represented by "0", "1", "yes", or "no".

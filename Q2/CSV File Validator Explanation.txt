@@ -1,0 +1,12 @@
+The code first takes a directory path as input, and creates a File object to represent the directory.
+It then loops through all the files in the directory, and checks if each file has a " .csv  "extension.
+For each CSV file, it creates a BufferedReader to read the file line by line.
+It reads the first line of the file (which should contain the header row) and checks that it contains the expected column names ("name" and "id").
+It then reads each subsequent line of the file and performs the following checks:
+Checks that the line contains at least two fields.
+Checks that the "name" field is not empty.
+Checks that the "name" field only contains letters (i.e., is a string).
+Adds the "name" field to a Set to check for duplicates.
+Adds the "id" field to a Set to check for uniqueness.
+If any errors are encountered, the program outputs a message describing the error and moves on to the next file.
+If no errors are encountered, the program moves on to the next file.

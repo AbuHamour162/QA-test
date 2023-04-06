@@ -1,0 +1,1 @@
+This  code will request three different pages on the DCbrain website, and will collect data in three different languages for each page. The code will collect all text within <p> tags on each page, and will save the data to separate text files for each language. The output might look something like this: go to file Name : " The Data Collected Results.txt " to see the results

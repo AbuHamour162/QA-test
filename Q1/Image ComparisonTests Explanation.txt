@@ -1,0 +1,5 @@
+In this code first I load the base image and launch the web driver to navigate to the website where the image is located.
+second find the image element using Selenium's findElement method and get the image URL. 
+Then we download the image to a file using Java's URLConnection class or a similar library.
+After downloading the image, we load it as a BufferedImage and compare it to the base image using the same method as the previous example code. 
+Finally, I used the assertEquals method from JUnit to verify that pixelDiff is 0, meaning that there are no differences between the two images.

@@ -1,0 +1,4 @@
+In this  code  first launch the web driver and navigate to the website.
+ Then I iterate through an array of viewport sizes (in pixels) and resize the window using Selenium's manage().window().setSize() method. 
+ Then call the isHeaderVisible, isFooterVisible, isMenuVisible, and isContentVisible methods to check if the website header, footer, menu, and content are visible in the current viewport size. If any of these methods returns false, the test fails.
+The isHeaderVisible, isFooterVisible, isMenuVisible, and isContentVisible methods use Selenium's findElement method to locate the corresponding HTML element, and then check if it's visible using the isDisplayed method.
